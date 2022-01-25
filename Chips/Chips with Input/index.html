@@ -9,19 +9,14 @@
   </head>
   <body>
     <div class="container">
-      <h1>Chips Autocomplete</h1>
+      <h1>Chips with Input</h1>
       <div class="result">
         <div id="demo"></div>
       </div>
       <form class="chipform" autocomplete="off">
-        <input
-          id="chips"
-          type="text"
-          oninput="showList()"
-          placeholder="Enter tech stack"
-        />
+        <input id="chips" type="text" placeholder="Enter tech stack" />
       </form>
-      <div class="list">
+      <!-- <div class="list">
         <ul id="ollist">
           <option onclick="selectItem(first)" id="first">React</option>
           <option onclick="selectItem(second)" id="second">Javascript</option>
@@ -30,7 +25,7 @@
           <option onclick="selectItem(fifth)" id="fifth">Python</option>
         </ul>
       </div>
-    </div>
+    </div> -->
     <script src="index.js"></script>
   </body>
 </html>
