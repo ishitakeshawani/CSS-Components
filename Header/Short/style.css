@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #6201ef;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  align-items: center;
+  color: white;
+  gap: 2rem;
+}
+
+.last {
+  margin-left: auto;
+}
+
+span {
+  font-size: 1.2rem;
+}
+
+i {
+  padding: 10px;
+  cursor: pointer;
+}
+
+i:hover {
+  background-color: #9e6de7;
+  border-radius: 50%;
+}
+
+p {
+  font-size: 1.2rem;
+}
