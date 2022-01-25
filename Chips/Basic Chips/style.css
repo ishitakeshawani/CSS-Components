@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100px;
+  }
+
+span{
+    padding: 8px;
+    font-weight: 400;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+span:hover{
+    opacity: 1;
+}
+    
+  div span:first-child{
+    color: black;
+    background-color: #e0e0e0;
+  }
+
+  div span:nth-child(2){
+      color: black;
+      background-color: #e0e0e0;
+  }
+
+  div span:nth-child(3){
+    color: white;
+    background-color: #3f51b5;
+}
+
+div span:nth-child(4){
+    color: white;
+    background-color: #ff4081;
+}
