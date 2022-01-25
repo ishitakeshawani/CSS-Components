@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Chips with Form Control</h1>
+      <p class="btn" onclick="disable()">Disable Form Control</p>
+      <p  class="btn" onclick="enable()">Enable Form Control</p>
+      <div class="result">
+        <div id="demo"></div>
+      </div>
+      <form class="chipform" autocomplete="off">
+        <input id="chips" type="text" placeholder="Enter tech stack" />
+      </form>
+      <!-- <div class="list">
+        <ul id="ollist">
+          <option onclick="selectItem(first)" id="first">React</option>
+          <option onclick="selectItem(second)" id="second">Javascript</option>
+          <option onclick="selectItem(third)" id="third">Node.js</option>
+          <option onclick="selectItem(fourth)" id="fourth">Remix</option>
+          <option onclick="selectItem(fifth)" id="fifth">Python</option>
+        </ul>
+      </div>
+    </div> -->
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  flex-direction: column;
+}
+
+input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid blueviolet;
+  width: 700px;
+  /* max-width: 900px; */
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+#ollist {
+  visibility: hidden;
+  border: 1px solid blueviolet;
+  min-width: 700px;
+  max-width: 880px;
+}
+
+option {
+  padding: 5px;
+  text-align: left;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 400;
+}
+
+option:hover {
+  background: gainsboro;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+li:hover {
+  background: white;
+  color: blueviolet;
+}
+
+#demo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.result {
+  /* display: inline; */
+  background: blueviolet;
+  width: 700px;
+  margin: 20px;
+  border-radius: 5px;
+  color: white;
+  min-height: 50px;
+}
+
+button {
+  color: blueviolet;
+  background: white;
+  padding: 0 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+button:hover {
+  color: white;
+  background-color: blueviolet;
+}
+
+.btn {
+  padding: 4px;
+  background-color: rgb(235, 230, 230);
+  margin: 4px;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+}
