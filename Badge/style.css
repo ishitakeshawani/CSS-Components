@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 25px;
 }
 
 .textwithbadge {
@@ -25,6 +25,7 @@
   bottom: 9px;
   right: 0;
   vertical-align: top;
+  font-size: 1rem;
 }
 
 .largetextwithbadge {
@@ -40,4 +41,55 @@
   bottom: 9px;
   right: 10px;
   vertical-align: top;
+}
+
+.chip {
+  background-color: #3f51b5;
+  color: white;
+  padding: 8px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.whitechip {
+  background-color: #f3f6f3;
+  color: black;
+  padding: 8px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 1px 2px 1px rgb(223, 219, 219);
+}
+
+.badgeonleft {
+  background-color: #ff4180;
+  color: white;
+  border-radius: 80%;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 3px;
+  font-size: 0.8rem;
+  padding-bottom: 3px;
+  position: relative;
+  bottom: 12px;
+  right: 75px;
+  vertical-align: top;
+}
+
+.badgeonright {
+  background-color: #3f51b5;
+  color: white;
+  border-radius: 80%;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  position: relative;
+  bottom: 5px;
+  right: 10px;
+  vertical-align: top;
+  font-size: 0.8rem;
 }
