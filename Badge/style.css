@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.textwithbadge {
+  background-color: #3f51b5;
+  color: white;
+  border-radius: 80%;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  position: relative;
+  bottom: 9px;
+  right: 0;
+  vertical-align: top;
+}
+
+.largetextwithbadge {
+  background-color: #3f51b5;
+  color: white;
+  border-radius: 80%;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 1.1rem;
+  position: relative;
+  bottom: 9px;
+  right: 10px;
+  vertical-align: top;
+}
