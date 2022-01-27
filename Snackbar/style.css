@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.snackbar {
+  display: flex;
+  gap: 1.8rem;
+  background-color: #323332;
+  color: white;
+  padding: 9px;
+  border-radius: 5px;
+  cursor: default;
+  align-items: center;
+}
+
+span {
+  color: #bb86fc;
+  cursor: pointer;
+  padding: 5px;
+}
+
+span:active {
+  background-color: #694a8f;
+}
+
+i {
+  cursor: pointer;
+  padding: 10px;
+}
+
+i:hover {
+  background-color: #7c817c;
+  border-radius: 50%;
+}
