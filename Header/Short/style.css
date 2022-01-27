@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow: scroll;
+  height: 1500px;
+}
+
 header {
   background-color: #6201ef;
   padding: 8px;
