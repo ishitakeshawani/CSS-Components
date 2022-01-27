@@ -12,7 +12,7 @@ body {
 header {
   background-color: #6201ef;
   padding: 12px;
-  display: block;
+  display: flex;
   /* position: sticky; */
   width: 100%;
   align-items: center;
